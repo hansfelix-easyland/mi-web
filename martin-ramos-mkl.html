@@ -11,22 +11,56 @@
         *{
             margin: 0px;
             padding: 0px;
-
+            text-decoration: none;
+            list-style: none;
+            font-family: sans-serif;
+        }
+        header{
+            width: 90%;
+            margin: 0px auto;
         }
         h1{
-            width: 90%;
+            
             height: 120px;
             background-color: #515151;
             color: white;
             font-size: 40px;
-            font-family: sans-serif;
             text-align: center;
             line-height: 120px;
-            margin: 0px auto;
+            
+        }
+        nav ul{
+            display: flex;
+            background: skyblue;
+            height: 100px;
+            
+        }
+        nav ul li{
+            display: block;
+            height: 21px;
+            margin-right: 10px;
+            border: 1px solid #222;
+            padding: 10px;
+        }
+        nav ul li:first-child{
+            margin-left: 10px;
         }
     </style>
 
-    <h1>Mi Primera Pagina WEB con Git</h1>
+    <header>
+        <div class="titulo">
+            <h1>Mi Primera Pagina WEB con Git</h1>
+        </div>
+        <nav>
+            <ul>
+                <li>Inicio</li>
+                <li>Contenido</li>
+                <li>Compras</li>
+                <li>Contactos</li>
+            </ul>
+        </nav>
+    </header>
+    
     
 </body>
 </html>
